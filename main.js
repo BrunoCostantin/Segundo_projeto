@@ -1,5 +1,5 @@
 const form = document.getElementById("form-contato")//cria uma variável com id do formulário
-const imgTelefone = "<img src='imagem/metrophone_metr_11263.png' alt='telefine-aplicativo'/>" // cria uma variável para a imagem de aprovação
+const imgTelefone = "<img src='metrophone_metr_11263.png' alt='telefine-aplicativo'/>" // cria uma variável para a imagem de aprovação
 const contato = []
 const telefone = []
 

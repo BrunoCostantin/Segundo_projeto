@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body> 
+    <div class="container">
+        <header>
+            <img src="imagem/telefone.png" alt="capelo d diplma">
+            <h1>Adicione um novo contato</h1>
+        </header>
+        <form id="form-contato">
+            <input type="text" id="mome-contato" required placeholder="Nome e Sobrenome"/>
+            <input type="number" id="num-telefone" required placeholder="Telefone" min="1"/>
+            <button type="submit">Cadastrar +</button>
+        </form>
+        <table cellspacing="0"> <!--cellspacing = 0 Tira a linha entre as tabelas-->
+            <thead>
+                <tr>
+                    <th>Nome do Contato</th>
+                    <th>Número Telefônico </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--<tr> // Era um conteudo estático para podemos entender e editar
+                    <td>Atividade 1</td>
+                    <td>7</td>
+                    <td><img src='./images/aprovado.png' alt='emoji festajando'/></td>
+                </tr>
+            </tbody>-->
+            <tfoot>
+                <tr>
+                    
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
